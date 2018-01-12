@@ -195,7 +195,7 @@ if &t_Co > 255
    hi Search          ctermfg=0   ctermbg=222   cterm=NONE
 
    " marks column
-   hi SignColumn      ctermfg=118 ctermbg=235
+   hi SignColumn      ctermfg=238 ctermbg=234
    hi SpecialChar     ctermfg=161               cterm=bold
    hi SpecialComment  ctermfg=245               cterm=bold
    hi Special         ctermfg=81
@@ -220,14 +220,14 @@ if &t_Co > 255
 
    hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
    hi VisualNOS                   ctermbg=238
-   hi Visual                      ctermbg=235
+   hi Visual                      ctermbg=236
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
    hi WildMenu        ctermfg=81  ctermbg=16
 
-   hi Comment         ctermfg=59
+   hi Comment         ctermfg=102
    hi CursorColumn                ctermbg=236
    hi ColorColumn                 ctermbg=236
-   hi LineNr          ctermfg=250 ctermbg=236
+   hi LineNr          ctermfg=238 ctermbg=234
    hi NonText         ctermfg=59
 
    hi SpecialKey      ctermfg=59
@@ -262,7 +262,7 @@ if &t_Co > 255
        hi Statement       ctermfg=197               cterm=bold
        hi Tag             ctermfg=197
        hi Title           ctermfg=203
-       hi Visual                      ctermbg=238
+       hi Visual                      ctermbg=197
 
        hi Comment         ctermfg=244
        hi LineNr          ctermfg=239 ctermbg=235
